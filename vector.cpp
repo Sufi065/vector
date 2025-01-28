@@ -52,7 +52,6 @@ int main()
     display(v);
     return 0;
 }
-
 void pair(){
     pair<int,int> p=make_pair(1,2);
     pair<int,pair<int,int>> p1={10,{20,30}};
