@@ -2,13 +2,14 @@
 #include <vector>
 using namespace std;
 
+
 void display(vector <int>t){
     for(int i=0;i<t.size();++i){
         cout<<t[i]<<" ";
     }
 }
-int main()
-{   
+
+int main(){   
     vector<int> v;
     vector<int> v1(6);
     vector<int> v2(10,100);
@@ -52,7 +53,9 @@ int main()
     display(v);
     return 0;
 }
+
 void pair(){
+    
     pair<int,int> p=make_pair(1,2);
     pair<int,pair<int,int>> p1={10,{20,30}};
     pair<int,string> p2={27,"Sufi"};
