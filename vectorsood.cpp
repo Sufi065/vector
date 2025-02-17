@@ -54,11 +54,4 @@ int main(){
 
 void pair(){
     
-    pair<int,int> p=make_pair(1,2);
-    pair<int,pair<int,int>> p1={10,{20,30}};
-    pair<int,string> p2={27,"Sufi"};
-    cout<<p2.first<<" "<<p2.second<<" "<<endl;
-    cout<<p1.first<<" "<<p1.second.first<<" "<<p1.second.second<<endl;
-    cout<<p.first<<" "<<p.second;
-    
-}
+  
