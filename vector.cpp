@@ -6,5 +6,3 @@ void display(vector <int>t){
         cout<<t[i]<<" ";
     }
 }
-
-adnn
