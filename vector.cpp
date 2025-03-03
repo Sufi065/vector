@@ -5,7 +5,7 @@ void display(vector <int>t){
     for(int i=0;i<t.size();++i){
         cout<<t[i]<<" ";
     }
-}
+}abcd
 int main(){   
     vector<int> v;
     vector<int> v1(6);
