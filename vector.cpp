@@ -3,7 +3,7 @@
 using namespace std;
 void display(vector <int>t){
     for(int i=0;i<t.size();++i){
-        cout<<t[i]<<" ";
+        cout<<t[i]<<" ";jfhn
     }
 }abcd
 int main(){   
